@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3013A87EB4EA3356B4E08C59 /* Pods_USBank_USBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E26563D035FB4739BB334A /* Pods_USBank_USBankUITests.framework */; };
+		347F02FF83398F8E7E2504AD /* Pods_USBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F7677B961F016F4D7633B3 /* Pods_USBankTests.framework */; };
+		92648B4927344E01006F97AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B4827344E01006F97AB /* AppDelegate.swift */; };
+		92648B4B27344E01006F97AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B4A27344E01006F97AB /* SceneDelegate.swift */; };
+		92648B4D27344E01006F97AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B4C27344E01006F97AB /* ViewController.swift */; };
+		92648B5027344E01006F97AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92648B4E27344E01006F97AB /* Main.storyboard */; };
+		92648B5227344E0D006F97AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92648B5127344E0D006F97AB /* Assets.xcassets */; };
+		92648B5527344E0D006F97AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92648B5327344E0D006F97AB /* LaunchScreen.storyboard */; };
+		92648B6027344E0D006F97AB /* USBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B5F27344E0D006F97AB /* USBankTests.swift */; };
+		92648B6B27344E0D006F97AB /* USBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B6A27344E0D006F97AB /* USBankUITests.swift */; };
+		92648B7C27344E36006F97AB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B7B27344E36006F97AB /* Photo.swift */; };
+		92648B8527358046006F97AB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B8427358046006F97AB /* Test.swift */; };
+		92648B9F273594E7006F97AB /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648B9E273594E7006F97AB /* ContentTableViewCell.swift */; };
+		92648BA4273595BB006F97AB /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92648BA3273595BB006F97AB /* Content.swift */; };
+		929B4E3183EEBE797D7D512E /* Pods_USBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133337E405A190DFDC932244 /* Pods_USBank.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92648B5C27344E0D006F97AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92648B3D27344E00006F97AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92648B4427344E00006F97AB;
+			remoteInfo = USBank;
+		};
+		92648B6727344E0D006F97AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92648B3D27344E00006F97AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92648B4427344E00006F97AB;
+			remoteInfo = USBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064720349C56F9CB3EBBDEF1 /* Pods-USBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBankTests.debug.xcconfig"; path = "Target Support Files/Pods-USBankTests/Pods-USBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C6E749ED02F682CC10F029F /* Pods-USBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBank.release.xcconfig"; path = "Target Support Files/Pods-USBank/Pods-USBank.release.xcconfig"; sourceTree = "<group>"; };
+		133337E405A190DFDC932244 /* Pods_USBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E26563D035FB4739BB334A /* Pods_USBank_USBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USBank_USBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F7677B961F016F4D7633B3 /* Pods_USBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92648B4527344E00006F97AB /* USBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92648B4827344E01006F97AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92648B4A27344E01006F97AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92648B4C27344E01006F97AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92648B4F27344E01006F97AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92648B5127344E0D006F97AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92648B5427344E0D006F97AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92648B5627344E0D006F97AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92648B5B27344E0D006F97AB /* USBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92648B5F27344E0D006F97AB /* USBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBankTests.swift; sourceTree = "<group>"; };
+		92648B6127344E0D006F97AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92648B6627344E0D006F97AB /* USBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92648B6A27344E0D006F97AB /* USBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBankUITests.swift; sourceTree = "<group>"; };
+		92648B6C27344E0D006F97AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92648B7B27344E36006F97AB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		92648B8427358046006F97AB /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		92648B9E273594E7006F97AB /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		92648BA3273595BB006F97AB /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		CF72F7C654D8BEDA012A11FD /* Pods-USBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBankTests.release.xcconfig"; path = "Target Support Files/Pods-USBankTests/Pods-USBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		D92D60E089FF5DAF25340ADC /* Pods-USBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBank.debug.xcconfig"; path = "Target Support Files/Pods-USBank/Pods-USBank.debug.xcconfig"; sourceTree = "<group>"; };
+		F07A2CDCECB360C3C083F6B5 /* Pods-USBank-USBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBank-USBankUITests.release.xcconfig"; path = "Target Support Files/Pods-USBank-USBankUITests/Pods-USBank-USBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F99E11BE7392B51B7B8D7B24 /* Pods-USBank-USBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USBank-USBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-USBank-USBankUITests/Pods-USBank-USBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92648B4227344E00006F97AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B4E3183EEBE797D7D512E /* Pods_USBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B5827344E0D006F97AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347F02FF83398F8E7E2504AD /* Pods_USBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B6327344E0D006F97AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3013A87EB4EA3356B4E08C59 /* Pods_USBank_USBankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92648B3C27344E00006F97AB = {
+			isa = PBXGroup;
+			children = (
+				92648B4727344E00006F97AB /* USBank */,
+				92648B5E27344E0D006F97AB /* USBankTests */,
+				92648B6927344E0D006F97AB /* USBankUITests */,
+				92648B4627344E00006F97AB /* Products */,
+				D7E3A0431AF0B401117D4DA3 /* Pods */,
+				AB4D9C993D8CB33E0BD8089F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92648B4627344E00006F97AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92648B4527344E00006F97AB /* USBank.app */,
+				92648B5B27344E0D006F97AB /* USBankTests.xctest */,
+				92648B6627344E0D006F97AB /* USBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92648B4727344E00006F97AB /* USBank */ = {
+			isa = PBXGroup;
+			children = (
+				92648B97273591D5006F97AB /* cell */,
+				92648B8027344EC9006F97AB /* Model */,
+				92648B4827344E01006F97AB /* AppDelegate.swift */,
+				92648B4A27344E01006F97AB /* SceneDelegate.swift */,
+				92648B4C27344E01006F97AB /* ViewController.swift */,
+				92648B4E27344E01006F97AB /* Main.storyboard */,
+				92648B5127344E0D006F97AB /* Assets.xcassets */,
+				92648B5327344E0D006F97AB /* LaunchScreen.storyboard */,
+				92648B5627344E0D006F97AB /* Info.plist */,
+				92648B8427358046006F97AB /* Test.swift */,
+			);
+			path = USBank;
+			sourceTree = "<group>";
+		};
+		92648B5E27344E0D006F97AB /* USBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				92648B5F27344E0D006F97AB /* USBankTests.swift */,
+				92648B6127344E0D006F97AB /* Info.plist */,
+			);
+			path = USBankTests;
+			sourceTree = "<group>";
+		};
+		92648B6927344E0D006F97AB /* USBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92648B6A27344E0D006F97AB /* USBankUITests.swift */,
+				92648B6C27344E0D006F97AB /* Info.plist */,
+			);
+			path = USBankUITests;
+			sourceTree = "<group>";
+		};
+		92648B8027344EC9006F97AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92648B7B27344E36006F97AB /* Photo.swift */,
+				92648BA3273595BB006F97AB /* Content.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92648B97273591D5006F97AB /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				92648B9E273594E7006F97AB /* ContentTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		AB4D9C993D8CB33E0BD8089F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133337E405A190DFDC932244 /* Pods_USBank.framework */,
+				48E26563D035FB4739BB334A /* Pods_USBank_USBankUITests.framework */,
+				74F7677B961F016F4D7633B3 /* Pods_USBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E3A0431AF0B401117D4DA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D92D60E089FF5DAF25340ADC /* Pods-USBank.debug.xcconfig */,
+				0C6E749ED02F682CC10F029F /* Pods-USBank.release.xcconfig */,
+				F99E11BE7392B51B7B8D7B24 /* Pods-USBank-USBankUITests.debug.xcconfig */,
+				F07A2CDCECB360C3C083F6B5 /* Pods-USBank-USBankUITests.release.xcconfig */,
+				064720349C56F9CB3EBBDEF1 /* Pods-USBankTests.debug.xcconfig */,
+				CF72F7C654D8BEDA012A11FD /* Pods-USBankTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92648B4427344E00006F97AB /* USBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92648B6F27344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBank" */;
+			buildPhases = (
+				5842BE43CA21082D755AD2D5 /* [CP] Check Pods Manifest.lock */,
+				92648B4127344E00006F97AB /* Sources */,
+				92648B4227344E00006F97AB /* Frameworks */,
+				92648B4327344E00006F97AB /* Resources */,
+				76D863E031CBDF6DE96CD333 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBank;
+			productName = USBank;
+			productReference = 92648B4527344E00006F97AB /* USBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92648B5A27344E0D006F97AB /* USBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92648B7227344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBankTests" */;
+			buildPhases = (
+				36E1E1DDC616667AA5163298 /* [CP] Check Pods Manifest.lock */,
+				92648B5727344E0D006F97AB /* Sources */,
+				92648B5827344E0D006F97AB /* Frameworks */,
+				92648B5927344E0D006F97AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92648B5D27344E0D006F97AB /* PBXTargetDependency */,
+			);
+			name = USBankTests;
+			productName = USBankTests;
+			productReference = 92648B5B27344E0D006F97AB /* USBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92648B6527344E0D006F97AB /* USBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92648B7527344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBankUITests" */;
+			buildPhases = (
+				6D9E0B5AA9952A6420B4D53C /* [CP] Check Pods Manifest.lock */,
+				92648B6227344E0D006F97AB /* Sources */,
+				92648B6327344E0D006F97AB /* Frameworks */,
+				92648B6427344E0D006F97AB /* Resources */,
+				217C6536650D4CB079F517ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92648B6827344E0D006F97AB /* PBXTargetDependency */,
+			);
+			name = USBankUITests;
+			productName = USBankUITests;
+			productReference = 92648B6627344E0D006F97AB /* USBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92648B3D27344E00006F97AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					92648B4427344E00006F97AB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					92648B5A27344E0D006F97AB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 92648B4427344E00006F97AB;
+					};
+					92648B6527344E0D006F97AB = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 92648B4427344E00006F97AB;
+					};
+				};
+			};
+			buildConfigurationList = 92648B4027344E00006F97AB /* Build configuration list for PBXProject "USBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92648B3C27344E00006F97AB;
+			productRefGroup = 92648B4627344E00006F97AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92648B4427344E00006F97AB /* USBank */,
+				92648B5A27344E0D006F97AB /* USBankTests */,
+				92648B6527344E0D006F97AB /* USBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92648B4327344E00006F97AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92648B5527344E0D006F97AB /* LaunchScreen.storyboard in Resources */,
+				92648B5227344E0D006F97AB /* Assets.xcassets in Resources */,
+				92648B5027344E01006F97AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B5927344E0D006F97AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B6427344E0D006F97AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		217C6536650D4CB079F517ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USBank-USBankUITests/Pods-USBank-USBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USBank-USBankUITests/Pods-USBank-USBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USBank-USBankUITests/Pods-USBank-USBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36E1E1DDC616667AA5163298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5842BE43CA21082D755AD2D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9E0B5AA9952A6420B4D53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USBank-USBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D863E031CBDF6DE96CD333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USBank/Pods-USBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USBank/Pods-USBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USBank/Pods-USBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92648B4127344E00006F97AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92648B7C27344E36006F97AB /* Photo.swift in Sources */,
+				92648B4D27344E01006F97AB /* ViewController.swift in Sources */,
+				92648BA4273595BB006F97AB /* Content.swift in Sources */,
+				92648B8527358046006F97AB /* Test.swift in Sources */,
+				92648B4927344E01006F97AB /* AppDelegate.swift in Sources */,
+				92648B4B27344E01006F97AB /* SceneDelegate.swift in Sources */,
+				92648B9F273594E7006F97AB /* ContentTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B5727344E0D006F97AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92648B6027344E0D006F97AB /* USBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92648B6227344E0D006F97AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92648B6B27344E0D006F97AB /* USBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92648B5D27344E0D006F97AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92648B4427344E00006F97AB /* USBank */;
+			targetProxy = 92648B5C27344E0D006F97AB /* PBXContainerItemProxy */;
+		};
+		92648B6827344E0D006F97AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92648B4427344E00006F97AB /* USBank */;
+			targetProxy = 92648B6727344E0D006F97AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92648B4E27344E01006F97AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92648B4F27344E01006F97AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92648B5327344E0D006F97AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92648B5427344E0D006F97AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92648B6D27344E0D006F97AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92648B6E27344E0D006F97AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92648B7027344E0D006F97AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92D60E089FF5DAF25340ADC /* Pods-USBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92648B7127344E0D006F97AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6E749ED02F682CC10F029F /* Pods-USBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92648B7327344E0D006F97AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064720349C56F9CB3EBBDEF1 /* Pods-USBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USBank.app/USBank";
+			};
+			name = Debug;
+		};
+		92648B7427344E0D006F97AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF72F7C654D8BEDA012A11FD /* Pods-USBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USBank.app/USBank";
+			};
+			name = Release;
+		};
+		92648B7627344E0D006F97AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99E11BE7392B51B7B8D7B24 /* Pods-USBank-USBankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USBank;
+			};
+			name = Debug;
+		};
+		92648B7727344E0D006F97AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07A2CDCECB360C3C083F6B5 /* Pods-USBank-USBankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Q8LL2F955;
+				INFOPLIST_FILE = USBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiaman.USBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92648B4027344E00006F97AB /* Build configuration list for PBXProject "USBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92648B6D27344E0D006F97AB /* Debug */,
+				92648B6E27344E0D006F97AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92648B6F27344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92648B7027344E0D006F97AB /* Debug */,
+				92648B7127344E0D006F97AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92648B7227344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92648B7327344E0D006F97AB /* Debug */,
+				92648B7427344E0D006F97AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92648B7527344E0D006F97AB /* Build configuration list for PBXNativeTarget "USBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92648B7627344E0D006F97AB /* Debug */,
+				92648B7727344E0D006F97AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92648B3D27344E00006F97AB /* Project object */;
+}
